@@ -6,6 +6,10 @@ body {
   box-sizing: border-box;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .header-container {
   background-image: url(./Icons/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
@@ -185,6 +189,7 @@ button {
 }
 
 .about-me {
+  font-family: 'Inter', sans-serif;
   background-image: url(./Icons/about-top.svg), url(./Icons/about_bg.svg);
   background-repeat: no-repeat;
   background-position: right -40px, 0 320px;
