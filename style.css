@@ -140,6 +140,7 @@ button {
   align-items: center;
   gap: 12px;
   color: #172b4d;
+  font-family: 'Inter', sans-serif;
 }
 
 .card-details h2 {
@@ -152,6 +153,7 @@ button {
 
 .list {
   gap: 8px;
+  list-style: none;
 }
 
 .card-details button {
@@ -169,7 +171,7 @@ button {
 .about-me {
   background-image: url(./Icons/about-top.svg), url(./Icons/about_bg.svg);
   background-repeat: no-repeat;
-  background-position: right -40px, 0 270px;
+  background-position: right -40px, 0 320px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -198,6 +200,7 @@ button:active {
 }
 
 .about-me h2 {
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -205,10 +208,11 @@ button:active {
 }
 
 .about-me p {
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  margin: 20px 15px 0 15px;
+  margin: 10px 15px 0 15px;
   color: #42526e;
 }
 
@@ -218,6 +222,7 @@ button:active {
   justify-content: center;
   width: 100%;
   margin: 62px auto;
+  font-family: 'Inter', sans-serif;
 }
 
 .about-me-grid-item {
@@ -233,10 +238,12 @@ button:active {
 
 .about-me-grid-item h3 {
   color: #172b4d;
+  font-family: 'Inter', sans-serif;
 }
 
 .about-me-grid-item ul {
   color: #36b37e;
+  font-family: 'Inter', sans-serif;
 }
 
 .iconic {
