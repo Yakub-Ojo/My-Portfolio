@@ -85,6 +85,9 @@ After you're finished please remove all the comments and instructions!
 - **[Create the toolbar]**
 - **[Create the headline section]**
 - **[Import svg images and style accordingly]**
+- **[Create work and about me section]**
+- **[Create contact me form]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -171,8 +174,6 @@ You can deploy this project using:
 
 
 - [ ] **[Add More styling]**
-- [ ] **[HTML pop up]**
-- [ ] **[Add work and about section]**
 
 
 
