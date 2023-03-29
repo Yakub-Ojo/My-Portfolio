@@ -63,7 +63,7 @@ ul li {
   margin: 20px 20px 0 20px;
 }
 
-.social-media {
+.social-media, {
   width: 90%;
   margin: 0 auto;
 }
@@ -291,6 +291,9 @@ button:active {
   padding: 0 20px;
   text-align: center;
   margin-top: 0;
+  background-image: url(./Icons/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 87%;
 }
 
 form {
@@ -334,5 +337,13 @@ form > textarea {
   text-align: center;
   color: #42526e;
   font-size: 17px;
+  margin-bottom: 40px;
+}
+.media-foot ul {
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
 
+.section-contact img {
+  margin-bottom: 5px;
 }
