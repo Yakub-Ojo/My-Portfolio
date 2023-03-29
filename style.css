@@ -223,7 +223,7 @@ button:active {
   background: #008552;
 }
 
-.about-me h2, .contact-desc {
+.about-me h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -345,4 +345,12 @@ form > textarea {
 
 .section-contact img {
   margin-bottom: 5px;
+}
+
+.contact-desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
 }
