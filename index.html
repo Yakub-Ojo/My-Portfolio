@@ -215,9 +215,9 @@
         chat please get in touch.
       </p>
       <form class="form flex column" action="https://formspree.io/f/xqkoyalw" method="post">
-        <input name="name" type="text" id="name" placeholder="Full name" />
+        <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" required />
 
-        <input name="email" type="email" placeholder="Email address" />
+        <input name="email" type="email" placeholder="Email address" required />
 
         <textarea 
           name="msg"
@@ -226,6 +226,7 @@
           rows="10"
           maxlength="500"
           placeholder="Hey I'd like to connect to ..."
+          required
         ></textarea>
        <button name="submit" type="submit" class="btn flex">Get in touch</button>
       </form>
