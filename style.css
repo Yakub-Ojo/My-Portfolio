@@ -199,6 +199,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .about-me button {
@@ -222,7 +223,8 @@ button:active {
   background: #008552;
 }
 
-.about-me h2 {
+.about-me h2, 
+.contact-desc {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -281,4 +283,56 @@ button:active {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 285px;
+}
+
+.section-contact {
+  gap: 58px;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+  margin-top: 0;
+}
+
+form {
+  gap: 24px;
+  height: 330px;
+}
+
+form > input {
+  height: 48px;
+  color: #6b778c;
+  font-style: italic;
+  padding-left: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+form > textarea {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #42526e;
+  font-weight: 400;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 129px;
+  padding: 12px;
+  background-color: #36b37f;
+  border-radius: 4px;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid #36b37f;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mail {
+  font-size: 20px;
+  text-align: center;
+  color: #42526e;
+  font-size: 17px;
+
 }
