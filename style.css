@@ -223,7 +223,7 @@ button:active {
   background: #008552;
 }
 
-.about-me h2,.contact-desc {
+.about-me h2 .contact-desc {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
