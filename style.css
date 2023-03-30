@@ -68,7 +68,7 @@ ul li {
   max-width: 100%;
 }
 
-.social-media {
+.social-media, {
   width: 90%;
   margin: 0 auto;
 }
@@ -205,6 +205,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .about-me button {
@@ -288,6 +289,77 @@ button:active {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 285px;
+}
+
+.section-contact {
+  gap: 58px;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+  margin-top: 0;
+  background-image: url(./Icons/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 87%;
+}
+
+form {
+  gap: 24px;
+  height: 330px;
+}
+
+form > input {
+  height: 48px;
+  color: #6b778c;
+  font-style: italic;
+  padding-left: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+form > textarea {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #42526e;
+  font-weight: 400;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 129px;
+  padding: 12px;
+  background-color: #36b37f;
+  border-radius: 4px;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid #36b37f;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mail {
+  font-size: 20px;
+  text-align: center;
+  color: #42526e;
+  margin-bottom: 40px;
+}
+
+.media-foot ul {
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+.section-contact img {
+  margin-bottom: 5px;
+}
+
+.contact-desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
 }
 
 @media only screen and (min-width: 768px) {
