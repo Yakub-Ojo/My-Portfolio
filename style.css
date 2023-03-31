@@ -53,7 +53,7 @@ ul li {
 .stack {
   color: #36b37e;
   align-self: center;
-  margin: 10px 10px 0 10px;
+  margin: 10px 0px 0 -8px;
 }
 
 .intro {
@@ -68,7 +68,7 @@ ul li {
   max-width: 100%;
 }
 
-.social-media, {
+.social-media {
   width: 90%;
   margin: 0 auto;
 }
@@ -292,8 +292,6 @@ button:active {
 }
 
 .section-contact {
-  gap: 58px;
-  align-items: center;
   padding: 0 20px;
   text-align: center;
   margin-top: 0;
@@ -391,6 +389,7 @@ form > textarea {
   }
 
   .desktop-nav {
+    display: flex;
     position: fixed;
     right: 0;
     left: 0;
@@ -404,7 +403,7 @@ form > textarea {
     justify-content: center;
     padding: 10px 12px;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     color: #344563;
     line-height: 20px;
   }
@@ -426,8 +425,14 @@ form > textarea {
     background-position: right -50px, left 140px;
     flex-direction: column;
     align-items: center;
+    align-self: center;
     justify-content: center;
     text-align: center;
+    border: 1px solid red;
+  }
+
+  .about-me p {
+    width: 45%;
   }
 
   .works-section-title img {
@@ -438,5 +443,9 @@ form > textarea {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 90%;
+  }
+
+  .section-contact {
+    display: flex;
   }
 }
