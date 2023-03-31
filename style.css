@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 ul li {
@@ -28,6 +28,7 @@ ul li {
 .desktop-nav {
   display: none;
 }
+
 .menu-bar {
   height: 8%;
   display: flex;
@@ -54,7 +55,7 @@ ul li {
 .stack {
   color: #36b37e;
   align-self: center;
-  margin: 10px 0px 0 -8px;
+  margin: 10px 0 0 -8px;
 }
 
 .intro {
@@ -307,9 +308,8 @@ form {
   gap: 24px;
 }
 
-.txt-input{
+.txt-input {
   gap: 24px;
-  
 }
 
 #name {
@@ -364,8 +364,6 @@ form {
 }
 
 @media only screen and (min-width: 768px) {
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-  
   .hamburger-container {
     display: none;
   }
@@ -387,7 +385,6 @@ form {
     font-size: 20px;
   }
 
-
   .intro-container {
     display: flex;
     flex-direction: column;
@@ -400,7 +397,6 @@ form {
     left: 0;
     top: 0;
     height: 72px;
-
   }
 
   .desktop-nav ul {
@@ -456,8 +452,7 @@ form {
 
   .desktop-contact {
     margin: 25px 65px 80px 65px;
-    padding: 20px 0px;
-
+    padding: 20px 0;
   }
 
   .desktop-contact p {
@@ -475,7 +470,6 @@ form {
     width: 100%;
   }
 
-
   #name {
     width: 100%;
     height: 48px;
@@ -490,7 +484,7 @@ form {
   .ft-indicator {
     display: none;
   }
-  
+
   .mail {
     display: none;
   }
@@ -519,5 +513,4 @@ form {
     margin-bottom: 0;
     align-items: center;
   }
-
 }
