@@ -451,7 +451,7 @@ form {
   }
 
   .desktop-contact {
-    margin: 25px 65px 80px 65px;
+    margin: 25px 65px 17% 65px;
     padding: 20px 0;
   }
 
@@ -504,7 +504,7 @@ form {
   .section-contact {
     background-image: url(./Icons/contact_right.svg), url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
     background-repeat: no-repeat;
-    background-position: right bottom, 20% 70%, left bottom;
+    background-position: right bottom, 20% 80%, left bottom;
   }
 
   .media-foot ul {
