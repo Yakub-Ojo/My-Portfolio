@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inter";
 }
 
 ul li {
@@ -209,7 +210,7 @@ button {
 }
 
 .about-me button {
-  margin: 15px 102px 24px 103px;
+  margin: 25px 102px 24px 103px;
   padding: 8px;
   background-color: #36b37f;
   border: none;
@@ -243,7 +244,7 @@ button:active {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  margin: 0px 15px 0 15px;
+  margin: 8px 15px 0 15px;
   color: #42526e;
 }
 
@@ -301,11 +302,17 @@ button:active {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
   gap: 24px;
-  height: 330px;
 }
 
-form > input {
+.txt-input{
+  gap: 24px;
+  
+}
+
+#name {
   height: 48px;
   color: #6b778c;
   font-style: italic;
@@ -313,15 +320,11 @@ form > input {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   font-size: 15px;
+  width: 96%;
 }
 
-form > textarea {
-  padding-left: 10px;
-  padding-top: 10px;
-  color: #42526e;
-  font-weight: 400;
-  border: 1px solid #60c095;
-  border-radius: 4px;
+#msg {
+  padding: 12px;
 }
 
 .btn {
@@ -361,6 +364,7 @@ form > textarea {
 }
 
 @media only screen and (min-width: 768px) {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
   
   .hamburger-container {
     display: none;
@@ -378,7 +382,9 @@ form > textarea {
   }
 
   .intro {
-    max-width: 60%;
+    width: 45%;
+    line-height: 32px;
+    font-size: 20px;
   }
 
 
@@ -389,8 +395,7 @@ form > textarea {
   }
 
   .desktop-nav {
-    display: flex;
-    position: fixed;
+    position: absolute;
     right: 0;
     left: 0;
     top: 0;
@@ -428,7 +433,7 @@ form > textarea {
     align-self: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
+    margin-bottom: 20px;
   }
 
   .about-me p {
@@ -445,7 +450,74 @@ form > textarea {
     max-width: 90%;
   }
 
-  .section-contact {
+  .d-flex {
     display: flex;
   }
+
+  .desktop-contact {
+    margin: 25px 65px 80px 65px;
+    padding: 20px 0px;
+
+  }
+
+  .desktop-contact p {
+    width: 37%;
+    text-align: left;
+  }
+
+  .contact-form {
+    display: grid;
+    gap: 24px;
+    width: 60%;
+  }
+
+  #msg {
+    width: 100%;
+  }
+
+
+  #name {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+  }
+
+  #name::placeholder {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .ft-indicator {
+    display: none;
+  }
+  
+  .mail {
+    display: none;
+  }
+
+  .social-media {
+    margin: 20px 0 0 0;
+  }
+
+  .social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 150px;
+  }
+
+  .section-contact {
+    background-image: url(./Icons/contact_right.svg), url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom, 20% 70%, left bottom;
+  }
+
+  .media-foot ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    align-items: center;
+  }
+
 }
