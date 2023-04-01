@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 body {
   padding: 0;
@@ -42,7 +42,7 @@ ul li {
 }
 
 .bio {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -59,7 +59,7 @@ ul li {
 }
 
 .intro {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -127,7 +127,7 @@ ul li {
 }
 
 .works-section-title h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -168,7 +168,7 @@ button {
   align-items: center;
   gap: 12px;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .card-details h2 {
@@ -199,7 +199,7 @@ button {
 }
 
 .about-me {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-image: url(./Icons/about-top.svg), url(./Icons/about_bg.svg);
   background-repeat: no-repeat;
   background-position: right -40px, 0 320px;
@@ -232,7 +232,7 @@ button:active {
 }
 
 .about-me h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -241,7 +241,7 @@ button:active {
 }
 
 .about-me p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -255,7 +255,7 @@ button:active {
   justify-content: center;
   max-width: 100%;
   margin: 62px auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-grid-item {
@@ -271,12 +271,12 @@ button:active {
 
 .about-me-grid-item h3 {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me-grid-item ul {
   color: #36b37e;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .iconic {
@@ -356,7 +356,7 @@ form {
 }
 
 .contact-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -407,6 +407,14 @@ form {
     font-size: 20px;
     color: #344563;
     line-height: 20px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+
+  .desktop-nav ul:hover {
+    font-size: 32px;
+    
   }
 
   .works-grid-container {
@@ -420,7 +428,7 @@ form {
   }
 
   .about-me {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     background-image: url(./Icons/Group.svg), url(./Icons/about-me_left.svg);
     background-repeat: no-repeat;
     background-position: right -50px, left 140px;
@@ -502,7 +510,8 @@ form {
   }
 
   .section-contact {
-    background-image: url(./Icons/contact_right.svg), url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
+    background-image: url(./Icons/contact_right.svg),
+      url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
     background-repeat: no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
   }
