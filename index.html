@@ -9,23 +9,30 @@
   </head>
   <body>
     <header>
-      <nav class="menu-bar">
-        <div class="hamburger-container">
-          <img src="Icons/Icon-Menu.png" alt="menu bar" />
-        </div>
-      </nav>
+        <nav class="desktop-nav d-flex">
+            <ul class="flex">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <nav class="menu-bar">
+            <div class="hamburger-container">
+                <img src="Icons/Icon-Menu.png" alt="menu bar">
+            </div>
+        </nav>
     </header>
     <section class="header-container">
-      <div>
+      <div class="intro-container">
         <h1 class="bio">
-          Hey there. <br />
+          Hey there.
           I'm Yakub. <br />
-          <span>I’m a software developer</span>
+          <span class="stack">I’m a software developer</span>
         </h1>
         <p class="intro">
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
-          you need coded, don’t hesitate to contact me.
+          you need coded, <br> don’t hesitate to contact me.
         </p>
       </div>
       <div class="social-media">
@@ -167,7 +174,7 @@
         <p>
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
-          you need coded, don’t hesitate to contact me.
+          you need coded, <br> don’t hesitate to contact me.
         </p>
         <button type="button">Get my resume</button>
       </div>
@@ -210,26 +217,18 @@
     </section>
 
     <section class="section-contact">
-      <p class="contact-desc">
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
-      </p>
-      <form class="form flex column" action="https://formspree.io/f/xqkoyalw" method="post">
-        <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" required />
-
-        <input name="email" type="email" placeholder="Email address" required />
-
-        <textarea 
-          name="msg"
-          id=""
-          cols="30"
-          rows="10"
-          maxlength="500"
-          placeholder="Hey I'd like to connect to ..."
-          required
-        ></textarea>
-       <button name="submit" type="submit" class="btn flex">Get in touch</button>
-      </form>
+      <div class="desktop-contact d-flex">
+        <p class="contact-desc">
+          I'm always interested in hearing about new projects, so if you'd like to
+          chat please get in touch.
+        </p>
+        <form class="contact-form" action= "https://formspree.io/f/xqkoyalw" method="post">
+          <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" required />
+          <input name="email" type="email" id="name" placeholder="Email address" required />
+          <textarea name="message" id="msg" cols="30" rows="10" maxlength="500" placeholder="Hey I'd like to connect to ..." required></textarea>
+          <button name="submit" type="submit" class="btn flex">Get in touch</button>
+        </form>
+      </div>
       <p class="mail">yakubojodev@gmail.com</p>
       <div class="social-media media-foot">
         <ul>
@@ -260,7 +259,8 @@
           </li>
         </ul>
       </div>
-      <img src="./Icons/Shape.svg" alt="shape">
+      <img class="ft-indicator" src="./Icons/Shape.svg" alt="shape">
     </section>
+
   </body>
 </html>
