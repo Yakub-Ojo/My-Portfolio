@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [My-Porfolio] <a name="about-project"></a>
 
 
-**[My-portfolio]** is my portfolio project where i create the mobile version of the project following a Figma design template
+**[My-portfolio]** is my portfolio project where i create the mobile and desktop version of the project following a Figma design template
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -87,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 - **[Import svg images and style accordingly]**
 - **[Create work and about me section]**
 - **[Create contact me form]**
-
+- **[Create the desktop-version]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,7 +95,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Not Available
+https://yakub-ojo.github.io/My-Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -399,6 +399,25 @@ form {
     height: 72px;
   }
 
+  .card-details ul {
+    justify-content: center;
+  }
+
+  .social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 150px;
+  }
+
+  .media-foot ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    align-items: center;
+  }
+
   .desktop-nav ul {
     gap: 20px;
     justify-content: center;
@@ -414,17 +433,12 @@ form {
 
   .desktop-nav ul:hover {
     font-size: 32px;
-    
   }
 
   .works-grid-container {
     max-width: 100%;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-  }
-
-  .card-details ul {
-    justify-content: center;
   }
 
   .about-me {
@@ -501,25 +515,12 @@ form {
     margin: 20px 0 0 0;
   }
 
-  .social-media ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-    margin-left: 150px;
-  }
-
   .section-contact {
-    background-image: url(./Icons/contact_right.svg),
-      url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
+    background-image:
+      url(./Icons/contact_right.svg),
+      url(./Icons/contact_mid.svg),
+      url(Icons/contact_left.svg);
     background-repeat: no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
-  }
-
-  .media-foot ul {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-    align-items: center;
   }
 }
