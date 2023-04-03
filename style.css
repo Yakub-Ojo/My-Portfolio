@@ -392,10 +392,10 @@ form {
   }
 
   .desktop-nav {
-    position: absolute;
+    /* position: absolute;
     right: 0;
     left: 0;
-    top: 0;
+    top: 0; */
     height: 72px;
   }
 
@@ -427,8 +427,9 @@ form {
     color: #344563;
     line-height: 20px;
     transition-property: font-size;
-    transition-duration: 4s;
-    transition-delay: 2s;
+    transition-duration: 1s;
+    transition-delay: o.5s;
+    width: 1fr;
   }
 
   .desktop-nav ul:hover {
