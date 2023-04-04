@@ -433,7 +433,7 @@ label {
     line-height: 20px;
     transition-property: font-size;
     transition-duration: 1s;
-    transition-delay: o.5s;
+    transition-delay: o0.5s;
     width: 1fr;
   }
 
