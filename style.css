@@ -308,6 +308,11 @@ form {
   gap: 24px;
 }
 
+label {
+  position: absolute;
+  visibility: hidden;
+}
+
 .txt-input {
   gap: 24px;
 }

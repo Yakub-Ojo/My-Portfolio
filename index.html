@@ -224,8 +224,11 @@
           chat please get in touch.
         </p>
         <form class="contact-form" action= "https://formspree.io/f/xqkoyalw" method="post">
+          <label for="firstname">First name: </label>
           <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" required />
+          <label for="email">Email: </label>
           <input name="email" type="email" id="name" placeholder="Email address" required />
+          <label for="message">Message: </label>
           <textarea name="message" id="msg" cols="30" rows="10" maxlength="500" placeholder="Hey I'd like to connect to ..." required></textarea>
           <button name="submit" type="submit" class="btn flex">Get in touch</button>
         </form>
