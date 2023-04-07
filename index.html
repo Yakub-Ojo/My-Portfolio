@@ -9,18 +9,19 @@
   </head>
   <body>
     <header>
+      <nav class="menu-bar">
+        <div class="hamburger-container">
+            <img src="Icons/Icon-Menu.png" alt="menu bar">
+        </div>
+    </nav>      
         <nav class="desktop-nav d-flex">
             <ul class="flex">
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <nav class="menu-bar">
-            <div class="hamburger-container">
-                <img src="Icons/Icon-Menu.png" alt="menu bar">
-            </div>
-        </nav>
+    
     </header>
     <section class="header-container">
       <div class="intro-container">
@@ -44,22 +45,22 @@
           </li>
           <li>
             <a href="#">
-              <img src="Icons/Linkedin-icon.svg" alt="twitter" />
+              <img src="Icons/Linkedin-icon.svg" alt="linkedin" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/medium.svg" alt="twitter" />
+              <img src="Icons/medium.svg" alt="medium" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/github.svg" alt="twitter" />
+              <img src="Icons/github.svg" alt="github" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/angellist.svg" alt="twitter" />
+              <img src="Icons/angellist.svg" alt="angellist" />
             </a>
           </li>
         </ul>
@@ -72,14 +73,14 @@
     <section class="work-section">
       <div class="works-section-title">
         <h2>My Recent Works</h2>
-        <img src="./Icons/Indicator.svg" alt="" />
+        <img src="./Icons/Indicator.svg" alt="indicator" />
       </div>
 
       <div class="works-grid-container">
         <div class="card flex column">
-          <img src="./Icons/Card/card_bg.png" alt="img" />
+          <img src="./Icons/Card/card_bg.png" alt="card-image1" />
           <div class="card-details flex column">
-            <h2>Multi-Post-Stories</h2>
+            <h3>Multi-Post-Stories</h3>
             <h3>Gain &#43; Glory</h3>
             <ul class="list flex">
               <li>Ruby on Rails</li>
@@ -92,9 +93,9 @@
         </div>
 
         <div class="card flex column">
-          <img src="./Icons/Card/card_bg.png" alt="img" />
+          <img src="./Icons/Card/card_bg.png" alt="card-image2" />
           <div class="card-details flex column">
-            <h2>Multi-Post-Stories</h2>
+            <h3>Multi-Post-Stories</h3>
             <h3>Gain &#43; Glory</h3>
             <ul class="list flex">
               <li>Ruby on Rails</li>
@@ -107,9 +108,9 @@
         </div>
 
         <div class="card flex column">
-          <img src="./Icons/Card/card_bg.png" alt="img" />
+          <img src="./Icons/Card/card_bg.png" alt="card-image3" />
           <div class="card-details flex column">
-            <h2>Multi-Post-Stories</h2>
+            <h3>Multi-Post-Stories</h3>
             <h3>Gain &#43; Glory</h3>
             <ul class="list flex">
               <li>Ruby on Rails</li>
@@ -122,9 +123,9 @@
         </div>
 
         <div class="card flex column">
-          <img src="./Icons/Card/card_bg.png" alt="img" />
+          <img src="./Icons/Card/card_bg.png" alt="card-image4" />
           <div class="card-details flex column">
-            <h2>Multi-Post-Stories</h2>
+            <h3>Multi-Post-Stories</h3>
             <h3>Gain &#43; Glory</h3>
             <ul class="list flex">
               <li>Ruby on Rails</li>
@@ -137,9 +138,9 @@
         </div>
 
         <div class="card flex column">
-          <img src="./Icons/Card/card_bg.png" alt="img" />
+          <img src="./Icons/Card/card_bg.png" alt="card-image5" />
           <div class="card-details flex column">
-            <h2>Multi-Post-Stories</h2>
+            <h3>Multi-Post-Stories</h3>
             <h3>Gain &#43; Glory</h3>
             <ul class="list flex">
               <li>Ruby on Rails</li>
@@ -152,9 +153,9 @@
         </div>
 
         <div class="card flex column">
-          <img src="./Icons/Card/card_bg.png" alt="img" />
+          <img src="./Icons/Card/card_bg.png" alt="card-image6" />
           <div class="card-details flex column">
-            <h2>Multi-Post-Stories</h2>
+            <h3>Multi-Post-Stories</h3>
             <h3>Gain &#43; Glory</h3>
             <ul class="list flex">
               <li>Ruby on Rails</li>
@@ -180,7 +181,7 @@
       </div>
       <div class="about-me-grid">
         <div class="about-me-grid-item flex column">
-          <img src="./Icons/Icon-Langguage.svg" class="iconic" alt="img" />
+          <img src="./Icons/Icon-Langguage.svg" class="iconic" alt="language-icon" />
           <h3>Languages</h3>
           <ul class="list skills flex">
             <li>Javascript</li>
@@ -191,7 +192,7 @@
         </div>
 
         <div class="about-me-grid-item flex column">
-          <img src="./Icons/Icon-name.svg" class="iconic" alt="img" />
+          <img src="./Icons/Icon-name.svg" class="iconic" alt="frame-work-icon" />
           <h3>Frameworks</h3>
           <ul class="list skills flex">
             <li>React.js</li>
@@ -203,7 +204,7 @@
         </div>
 
         <div class="about-me-grid-item flex column">
-          <img src="./Icons/Icon-skill.svg" class="iconic" alt="img" />
+          <img src="./Icons/Icon-skill.svg" class="iconic" alt="skills-icon" />
           <h3>Skills</h3>
           <ul class="list skills flex">
             <li>Database Management</li>
@@ -223,8 +224,11 @@
           chat please get in touch.
         </p>
         <form class="contact-form" action= "https://formspree.io/f/xqkoyalw" method="post">
+          <label for="firstname">First name: </label>
           <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" required />
+          <label for="email">Email: </label>
           <input name="email" type="email" id="name" placeholder="Email address" required />
+          <label for="message">Message: </label>
           <textarea name="message" id="msg" cols="30" rows="10" maxlength="500" placeholder="Hey I'd like to connect to ..." required></textarea>
           <button name="submit" type="submit" class="btn flex">Get in touch</button>
         </form>
@@ -239,27 +243,27 @@
           </li>
           <li>
             <a href="#">
-              <img src="Icons/Linkedin-icon.svg" alt="twitter">
+              <img src="Icons/Linkedin-icon.svg" alt="linkedin">
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/medium.svg" alt="twitter">
+              <img src="Icons/medium.svg" alt="medium">
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/github.svg" alt="twitter">
+              <img src="Icons/github.svg" alt="github">
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/angellist.svg" alt="twitter">
+              <img src="Icons/angellist.svg" alt="angellist">
             </a>
           </li>
         </ul>
       </div>
-      <img class="ft-indicator" src="./Icons/Shape.svg" alt="shape">
+      <img class="ft-indicator" src="./Icons/Shape.svg" alt="end">
     </section>
 
   </body>
