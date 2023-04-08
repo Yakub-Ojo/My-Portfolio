@@ -165,6 +165,9 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/Yakubojodev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/Mar12358)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
