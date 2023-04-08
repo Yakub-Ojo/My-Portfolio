@@ -369,15 +369,42 @@ label {
 }
 
 @media only screen and (min-width: 768px) {
+
   .hamburger-container {
     display: none;
+  }
+
+  .desktop-nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+    height: 72px;
+    z-index: 0;
   }
 
   .header-container {
     background-image: url(Icons/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-position: center;
+    height: 1250px;
     background-size: 100%;
+    width: 100%;
+    display: flex;
+    gap: 100px;
+  }
+
+  .intro-social {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .bio {
@@ -388,20 +415,6 @@ label {
     width: 45%;
     line-height: 32px;
     font-size: 20px;
-  }
-
-  .intro-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .desktop-nav {
-    /* position: absolute;
-    right: 0;
-    left: 0;
-    top: 0; */
-    height: 72px;
   }
 
   .card-details ul {
