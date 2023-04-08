@@ -374,14 +374,35 @@ label {
     display: none;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .desktop-nav {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
     margin-top: 0;
     height: 72px;
     z-index: 0;
+  }
+
+  .desktop-nav ul {
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 12px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #344563;
+    line-height: 20px;
+    width: 1fr;
+  }
+
+  .desktop-nav ul li {
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0.15s;
+  }
+
+  .desktop-nav ul li:hover {
+    font-size: 32px;
   }
 
   .header-container {
@@ -434,24 +455,6 @@ label {
     justify-content: center;
     margin-bottom: 0;
     align-items: center;
-  }
-
-  .desktop-nav ul {
-    gap: 20px;
-    justify-content: center;
-    padding: 10px 12px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #344563;
-    line-height: 20px;
-    transition-property: font-size;
-    transition-duration: 1s;
-    transition-delay: o0.5s;
-    width: 1fr;
-  }
-
-  .desktop-nav ul:hover {
-    font-size: 32px;
   }
 
   .works-grid-container {
