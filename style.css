@@ -5,6 +5,8 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 ul li {
@@ -381,7 +383,6 @@ label {
   .desktop-nav {
     margin-top: 0;
     height: 72px;
-    z-index: 0;
   }
 
   .desktop-nav ul {
@@ -393,6 +394,7 @@ label {
     color: #344563;
     line-height: 20px;
     width: 1fr;
+    margin-top: 0;
   }
 
   .desktop-nav ul li {
