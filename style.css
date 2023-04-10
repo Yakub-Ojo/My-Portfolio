@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  scroll-behavior: smooth;
   overflow-x: hidden !important;
 }
 
@@ -539,10 +542,8 @@ label {
   }
 
   .section-contact {
-    background-image:
-      url(./Icons/contact_right.svg),
-      url(./Icons/contact_mid.svg),
-      url(Icons/contact_left.svg);
+    background-image: url(./Icons/contact_right.svg),
+      url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
     background-repeat: no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
   }
