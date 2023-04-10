@@ -6,6 +6,6 @@ document.body.appendChild(menuList);
 console.log(menuList.innerHTML);
 //console.log(list);
 menu.addEventListener('click', function() {
-    return(menuList.innerHTML);
+    alert (menuList.innerHTML);
     // for (let menuList of )
 });
