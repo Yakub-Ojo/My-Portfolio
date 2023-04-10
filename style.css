@@ -542,8 +542,7 @@ label {
   }
 
   .section-contact {
-    background-image: url(./Icons/contact_right.svg),
-      url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
+    background-image: url(./Icons/contact_right.svg), url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
     background-repeat: no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
   }
