@@ -25,7 +25,7 @@ closeBtn.addEventListener("click", function () {
 });
 
 const navItems = document.querySelectorAll(".nav-list a");
-if (window.innerWidth < 1000) {
+if (window.innerWidth < 767) {
   navItems.forEach((item) => {
     item.addEventListener("click", () => {
       closeMenu();
