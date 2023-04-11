@@ -11,5 +11,16 @@ menuBtn.addEventListener('click', function () {
   menu.style.display = 'Flex';
   overlay.classList.remove("hidden");
   body.style.overflow = "hidden"
-  })
+})
 
+const closeMenu = () => {
+  menuBtn.style.display = 'block';
+  closeBtn.style.display = 'none';
+  menu.style.display = 'none'
+  overlay.classList.add('hidden');
+  body.style.overflow = 'scroll'
+}
+    
+closeBtn.addEventListener('click', function () {
+  closeMenu();
+})    
