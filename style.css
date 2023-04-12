@@ -429,8 +429,12 @@ label {
 
 }
 
-.pop-image {
+.pop-mobile-image {
   width: 100%;
+}
+
+.pop-image {
+  display: none;
 }
 .pop-details {
   justify-content: space-between;
@@ -686,6 +690,10 @@ label {
     background-color: #ffffff;
     padding: 10px;
     align-content: center;
+  }
+
+  .pop-mobile-image {
+    display: none;
   }
 
   .pop-image {
