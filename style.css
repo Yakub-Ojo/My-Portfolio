@@ -419,8 +419,16 @@ label {
     text-decoration: none;
   }
 
+  .modal {
+    display: block;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+  }
+
   .pop-up {
-  max-width: 920px;
+    width: 80%;
+    margin: 20px auto;
   border: 1px solid #ebecf0;
   border-radius: 12px;
   box-shadow: 2px 2px 8px #ebecf0;
@@ -494,9 +502,6 @@ label {
 }
 
 .pop-desc {
-  display: none;
-}
-.pop-desc-mobile {
   font-size: 16px;
   line-height: 30px;
   color: #344563;
@@ -680,11 +685,19 @@ label {
     background-position: right bottom, 20% 80%, left bottom;
   }
 
+  .modal {
+  display: block;
+  /* position: fixed; */
+  width: 100%;
+  height: 100%;
+}
+
   .pop-up {
     position: absolute;
     left: 140px;
     align-items: center;
-    max-width: 920px;
+    width: 80%;
+    margin: 20px auto;
     border: 1px solid #ebecf0;
     box-shadow: 2px 2px 8px #ebecf0;
     background-color: #ffffff;
@@ -759,10 +772,6 @@ label {
     font-size: 16px;
     line-height: 30px;
     color: #344563;
-  }
-
-  .pop-desc-mobile {
-    display: none;
   }
 
 }
