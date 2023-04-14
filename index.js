@@ -49,7 +49,7 @@ const projectData = [
     head2: 'Gain &#43; Glory',
     tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
     tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    taggMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
   },
   {
     image: './Icons/Card/card_bg.png',
@@ -61,7 +61,7 @@ const projectData = [
     head2: 'Gain &#43; Glory',
     tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
     tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    taggMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
   },
   {
     image: './Icons/Card/card_bg.png',
@@ -73,7 +73,7 @@ const projectData = [
     head2: 'Gain &#43; Glory',
     tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
     tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    taggMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
   },
   {
     image: './Icons/Card/card_bg.png',
@@ -85,7 +85,7 @@ const projectData = [
     head2: 'Gain &#43; Glory',
     tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
     tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    taggMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
   },
   {
     image: './Icons/Card/card_bg.png',
@@ -97,7 +97,7 @@ const projectData = [
     head2: 'Gain &#43; Glory',
     tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
     tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    taggMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
   },
   {
     image: './Icons/Card/card_bg.png',
@@ -134,22 +134,23 @@ for (let i = 0; i < projectData.length; i += 1) {
   `
 }
 
-const model = document.getElementByclassName('modal');
+const model = document.getElementById('modal1');
 
 for (let j = 0; j < projectData.length; j += 1) {
   const projectBtn =  document.querySelectorAll(`[id=btn-${j}]`);
   projectBtn.forEach((e) => {
     e.addEventListener('click', () => {
-      console.log("Button is clicked");
-      model.style.display = 'none';
+      // console.log("Button is clicked");
+      model.style.display = 'block';
       model.innerHTML = `
       <div class="pop-up">
+      <span class="close-btn">X</span>
       <img src= "${projectData[j].imgPopMob}" alt="popup-image" class="pop-mobile-image">
       <img class="pop-image" src="${projectData[j].imgPopDes}" alt="card-image1" />
       <div class="pop-details">
         <h3>${projectData[j].headPop}</h3>
         <div class="pop-button">
-          <button type="button">See live </button>
+          <button type="button">See live <img src="Icons/Icon.svg" alt=""></button>
           <button type="button"> <span>See source</span> <img src="Icons/Vector.svg" alt=""></button>
         </div>
       </div>
@@ -173,6 +174,11 @@ for (let j = 0; j < projectData.length; j += 1) {
       </div>
     </div>
       `
+      const close = document.querySelector('.close-btn');
+      close.addEventListener('click', () => {
+        const modal = document.querySelector('.modal');
+        modal.style.display = 'none';
+      })
 
     })
   })
