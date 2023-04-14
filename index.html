@@ -11,30 +11,30 @@
   <body>
     <header>
       <nav class="menu-bar">
-        <img class="menu-icon" src="Icons/Icon-Menu.png" alt="menu bar">
-        <img src="/Icons/close_Icon.svg" alt="" class="close_icon">
-      </nav> 
+        <img class="menu-icon" src="Icons/Icon-Menu.png" alt="menu bar" />
+        <img src="/Icons/close_Icon.svg" alt="" class="close_icon" />
+      </nav>
       <div class="overlay hidden"></div>
       <nav class="desktop-nav">
-        <ul class="nav-list flex ">
+        <ul class="nav-list flex">
           <li><a href="#work-section">Portfolio</a></li>
           <li><a href="#about-section">About</a></li>
           <li><a href="#contact-section">Contact</a></li>
         </ul>
-      </nav>  
+      </nav>
     </header>
     <section class="header-container">
       <div class="intro-social">
         <div class="intro-container">
           <h1 class="bio">
-            Hey there.
-            I'm Yakub. <br />
+            Hey there. I'm Yakub. <br />
             <span class="stack">I’m a software developer</span>
           </h1>
           <p class="intro">
-            I can help you build a product , feature or website Look through some
-            of my work and experience! If you like what you see and have a project
-            you need coded, <br> don’t hesitate to contact me.
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, <br />
+            don’t hesitate to contact me.
           </p>
         </div>
         <div class="social-media">
@@ -78,8 +78,7 @@
         <img src="./Icons/Indicator.svg" alt="indicator" />
       </div>
 
-      <div class="works-grid-container" id="page">
-      </div>
+      <div class="works-grid-container" id="page"></div>
     </section>
 
     <section class="about-section" id="about-section">
@@ -88,13 +87,18 @@
         <p>
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
-          you need coded, <br> don’t hesitate to contact me.
+          you need coded, <br />
+          don’t hesitate to contact me.
         </p>
         <button type="button">Get my resume</button>
       </div>
       <div class="about-me-grid">
         <div class="about-me-grid-item flex column">
-          <img src="./Icons/Icon-Langguage.svg" class="iconic" alt="language-icon" />
+          <img
+            src="./Icons/Icon-Langguage.svg"
+            class="iconic"
+            alt="language-icon"
+          />
           <h3>Languages</h3>
           <ul class="list skills flex">
             <li>Javascript</li>
@@ -105,7 +109,11 @@
         </div>
 
         <div class="about-me-grid-item flex column">
-          <img src="./Icons/Icon-name.svg" class="iconic" alt="frame-work-icon" />
+          <img
+            src="./Icons/Icon-name.svg"
+            class="iconic"
+            alt="frame-work-icon"
+          />
           <h3>Frameworks</h3>
           <ul class="list skills flex">
             <li>React.js</li>
@@ -133,20 +141,46 @@
     <section class="section-contact" id="contact-section">
       <div class="desktop-contact d-flex">
         <p class="contact-desc">
-          I'm always interested in hearing about new projects, so if you'd like to
-          chat please get in touch.
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
         </p>
-        <form class="contact-form" id="form" >
+        <form
+          class="contact-form"
+          id="form"
+          action="https://formspree.io/f/xqkoyalw"
+          method="post"
+        >
           <label for="firstname">First name: </label>
           <span id="fullNameError"></span>
-          <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" />
+          <input
+            name="name"
+            maxlength="30"
+            type="text"
+            id="name"
+            placeholder="Full name"
+          />
           <label for="email">Email: </label>
           <span id="emailError"></span>
-          <input name="email" type="email" id="email" class="email" placeholder="Email address" />
+          <input
+            name="email"
+            type="email"
+            id="email"
+            class="email"
+            placeholder="Email address"
+          />
           <label for="message">Message: </label>
           <span id="messageError"></span>
-          <textarea name="message" id="msg" cols="30" rows="10" maxlength="500" placeholder="Hey I'd like to connect to ..." ></textarea>
-          <button type="submit" id="submit-btn" class="btn flex">Get in touch</button>
+          <textarea
+            name="message"
+            id="msg"
+            cols="30"
+            rows="10"
+            maxlength="500"
+            placeholder="Hey I'd like to connect to ..."
+          ></textarea>
+          <button type="submit" id="submit-btn" class="btn flex">
+            Get in touch
+          </button>
         </form>
       </div>
       <p class="mail">yakubojodev@gmail.com</p>
@@ -154,38 +188,37 @@
         <ul>
           <li>
             <a href="#">
-              <img src="Icons/twitter.svg" alt="twitter">
+              <img src="Icons/twitter.svg" alt="twitter" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/Linkedin-icon.svg" alt="linkedin">
+              <img src="Icons/Linkedin-icon.svg" alt="linkedin" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/medium.svg" alt="medium">
+              <img src="Icons/medium.svg" alt="medium" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/github.svg" alt="github">
+              <img src="Icons/github.svg" alt="github" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="Icons/angellist.svg" alt="angellist">
+              <img src="Icons/angellist.svg" alt="angellist" />
             </a>
           </li>
         </ul>
       </div>
-      <img class="ft-indicator" src="./Icons/Shape.svg" alt="end">
+      <img class="ft-indicator" src="./Icons/Shape.svg" alt="end" />
     </section>
-  
-<div id="modal1" class="modal">
-</div>
 
-<script src="index.js"></script>
-<script src="form.js"></script>
+    <div id="modal1" class="modal"></div>
+
+    <script src="index.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
