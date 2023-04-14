@@ -1,4 +1,4 @@
-//Get the submit button, name, email, message input elements and form
+// Get the submit button, name, email, message input elements and form
 const submitButton = document.getElementById('submit-btn');
 const fullNameInput = document.getElementById('name');
 const messageInput = document.getElementById('msg');
