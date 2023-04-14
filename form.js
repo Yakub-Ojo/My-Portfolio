@@ -83,3 +83,10 @@ function savaData() {
 fullNameInput.addEventListener('focusout', savaData);
 emailInput.addEventListener('focusout', savaData);
 messageInput.addEventListener('focusout', savaData);
+
+const data = JSON.parse(localStorage.getItem('userData'));
+if (data) {
+  fullNameInput.value = data.username;
+  emailInput.value = data.email;
+  messageInput.value = data.message;
+}
