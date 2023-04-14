@@ -26,35 +26,35 @@ submitButton.addEventListener('click', (event) => {
     fullNameInput.style.border = '2px solid red';
     fullNameError.style.display = 'block';
     resetInputError(fullNameInput, fullNameError);
-  }
+    }
   // Validate the email field
   else if (emailInput.value === '') {
     emailError.textContent = 'Email Field cannot be empty';
     emailInput.style.border = '2px solid red';
     emailError.style.display = 'block';
     resetInputError(emailInput, emailError);
-  }
+    }
   // Validate the email format
   else if (!emailRegex.test(emailInput.value)) {
     emailError.textContent = 'Enter a valid email in lowercase';
     emailInput.style.border = '2px solid red';
     emailError.style.display = 'block';
     resetInputError(emailInput, emailError);
-  }
+    }
   // Validate the message field
   else if (messageInput.value === '') {
     messageError.textContent = 'Message is Required';
     messageInput.style.border = '2px solid red';
     messageError.style.display = 'block';
     resetInputError(messageInput, messageError);
-  }
+    }
   // Validate the message length
   else if (messageInput.value.length > 500) {
     messageError.textContent = 'Message cannot exceed 500 Characters';
     messageInput.style.border = '2px solid red';
     messageError.style.display = 'block';
     resetInputError(messageInput, messageError);
-  }
+    }
   // Submit the form if all fields are validated
   else {
     messageError.textContent = 'Message Sent';
