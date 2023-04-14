@@ -33,10 +33,7 @@ if (window.innerWidth < 767) {
   });
 }
 
-
-
-// THE MODAL POP UP SECTION STARTS 
-
+// THE MODAL POP UP SECTION STARTS
 
 const projectData = [
   {
@@ -44,73 +41,73 @@ const projectData = [
     imgPopDes: './Icons/Snapshoot-Portfolio.svg',
     imgPopMob: './Icons/Snapshoot-Portfolio2.svg',
     head: 'Multi-Post-Stories',
-    headPop: "Keeping track of hundreds of components",
+    headPop: 'Keeping track of hundreds of components',
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960 with the relea Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
     head2: 'Gain &#43; Glory',
-    tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
-    tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tags: ['Ruby on Rails', 'CSS', 'JavaSCript', 'HTML'],
+    tags2: ['Codepen', 'Github', 'Javascript', 'Boostrap', 'Terminal'],
+    tagMob: ['Ruby on Rails', 'CSS', 'Javascript'],
   },
   {
     image: './Icons/Card/card_bg.png',
     imgPopDes: './Icons/Snapshoot-Portfolio.svg',
     imgPopMob: './Icons/Snapshoot-Portfolio2.svg',
     head: 'Multi-Post-Stories',
-    headPop: "Keeping track of hundreds of components",
+    headPop: 'Keeping track of hundreds of components',
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960 with the relea Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
     head2: 'Gain &#43; Glory',
-    tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
-    tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tags: ['Ruby on Rails', 'CSS', 'JavaSCript', 'HTML'],
+    tags2: ['Codepen', 'Github', 'Javascript', 'Boostrap', 'Terminal'],
+    tagMob: ['Ruby on Rails', 'CSS', 'Javascript'],
   },
   {
     image: './Icons/Card/card_bg.png',
     imgPopDes: './Icons/Snapshoot-Portfolio.svg',
     imgPopMob: './Icons/Snapshoot-Portfolio2.svg',
     head: 'Multi-Post-Stories',
-    headPop: "Keeping track of hundreds of components",
+    headPop: 'Keeping track of hundreds of components',
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960 with the relea Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
     head2: 'Gain &#43; Glory',
-    tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
-    tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tags: ['Ruby on Rails', 'CSS', 'JavaSCript', 'HTML'],
+    tags2: ['Codepen', 'Github', 'Javascript', 'Boostrap', 'Terminal'],
+    tagMob: ['Ruby on Rails', 'CSS', 'Javascript'],
   },
   {
     image: './Icons/Card/card_bg.png',
     imgPopDes: './Icons/Snapshoot-Portfolio.svg',
     imgPopMob: './Icons/Snapshoot-Portfolio2.svg',
     head: 'Multi-Post-Stories',
-    headPop: "Keeping track of hundreds of components",
+    headPop: 'Keeping track of hundreds of components',
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960 with the relea Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
     head2: 'Gain &#43; Glory',
-    tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
-    tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tags: ['Ruby on Rails', 'CSS', 'JavaSCript', 'HTML'],
+    tags2: ['Codepen', 'Github', 'Javascript', 'Boostrap', 'Terminal'],
+    tagMob: ['Ruby on Rails', 'CSS', 'Javascript'],
   },
   {
     image: './Icons/Card/card_bg.png',
     imgPopDes: './Icons/Snapshoot-Portfolio.svg',
     imgPopMob: './Icons/Snapshoot-Portfolio2.svg',
     head: 'Multi-Post-Stories',
-    headPop: "Keeping track of hundreds of components",
+    headPop: 'Keeping track of hundreds of components',
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960 with the relea Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
     head2: 'Gain &#43; Glory',
-    tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
-    tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    tagMob: ["Ruby on Rails", "CSS", "Javascript"],    
+    tags: ['Ruby on Rails', 'CSS', 'JavaSCript', 'HTML'],
+    tags2: ['Codepen', 'Github', 'Javascript', 'Boostrap', 'Terminal'],
+    tagMob: ['Ruby on Rails', 'CSS', 'Javascript'],
   },
   {
     image: './Icons/Card/card_bg.png',
     imgPopDes: './Icons/Snapshoot-Portfolio.svg',
     imgPopMob: './Icons/Snapshoot-Portfolio2.svg',
     head: 'Multi-Post-Stories',
-    headPop: "Keeping track of hundreds of components",
+    headPop: 'Keeping track of hundreds of components',
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960 with the relea Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
     head2: 'Gain &#43; Glory',
-    tags: ["Ruby on Rails", "CSS", "JavaSCript", "HTML"],
-    tags2: ["Codepen", "Github", "Javascript", "Boostrap", "Terminal"],
-    tagMob: ["Ruby on Rails", "CSS", "Javascript"],  
-      
+    tags: ['Ruby on Rails', 'CSS', 'JavaSCript', 'HTML'],
+    tags2: ['Codepen', 'Github', 'Javascript', 'Boostrap', 'Terminal'],
+    tagMob: ['Ruby on Rails', 'CSS', 'Javascript'],
+
   },
 ];
 
@@ -131,12 +128,12 @@ for (let i = 0; i < projectData.length; i += 1) {
     <button type="button" id="btn-${i}">See project</button>
   </div>
 </div>
-  `
+  `;
 }
 
 const model = document.getElementById('modal1');
 for (let j = 0; j < projectData.length; j += 1) {
-  const projectBtn =  document.querySelectorAll(`[id=btn-${j}]`);
+  const projectBtn = document.querySelectorAll(`[id=btn-${j}]`);
   projectBtn.forEach((e) => {
     e.addEventListener('click', () => {
       // console.log("Button is clicked");
@@ -168,17 +165,16 @@ for (let j = 0; j < projectData.length; j += 1) {
       </ul>
       <p class="pop-desc">${projectData[j].text}</p>
       <div class="pop-button-mobile">
-        <button type="button">See live </button>
+        <button type="button"> <span>See live </span> <img src="Icons/Icon.svg" alt=""></button>
         <button type="button"> <span>See source</span> <img src="Icons/Vector.svg" alt=""></button>
       </div>
     </div>
-      `
+      `;
       const close = document.querySelector('.close-btn');
       close.addEventListener('click', () => {
         const modal = document.querySelector('.modal');
         modal.style.display = 'none';
-      })
-    })
-  })
+      });
+    });
+  });
 }
-
