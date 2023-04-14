@@ -136,14 +136,17 @@
           I'm always interested in hearing about new projects, so if you'd like to
           chat please get in touch.
         </p>
-        <form class="contact-form" action= "https://formspree.io/f/xqkoyalw" method="post">
+        <form class="contact-form" id="form" >
           <label for="firstname">First name: </label>
-          <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" required />
+          <span id="fullNameError"></span>
+          <input name="name" maxlength="30" type="text" id="name" placeholder="Full name" />
           <label for="email">Email: </label>
-          <input name="email" type="email" id="name" placeholder="Email address" required />
+          <span id="emailError"></span>
+          <input name="email" type="email" id="email" class="email" placeholder="Email address" />
           <label for="message">Message: </label>
-          <textarea name="message" id="msg" cols="30" rows="10" maxlength="500" placeholder="Hey I'd like to connect to ..." required></textarea>
-          <button name="submit" type="submit" class="btn flex">Get in touch</button>
+          <span id="messageError"></span>
+          <textarea name="message" id="msg" cols="30" rows="10" maxlength="500" placeholder="Hey I'd like to connect to ..." ></textarea>
+          <button type="submit" id="submit-btn" class="btn flex">Get in touch</button>
         </form>
       </div>
       <p class="mail">yakubojodev@gmail.com</p>
@@ -182,7 +185,7 @@
 <div id="modal1" class="modal">
 </div>
 
-<script src="index.js">
-</script>
+<script src="index.js"></script>
+<script src="form.js"></script>
   </body>
 </html>
