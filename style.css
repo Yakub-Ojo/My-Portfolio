@@ -685,7 +685,7 @@ form span {
 
   .desktop-contact {
     margin: 25px 65px 17% 65px;
-    padding: 0px 20px;
+    padding: 0 20px;
     gap: 40px;
   }
 
@@ -713,7 +713,12 @@ form span {
     width: 100%;
   }
 
-  #name, #email {
+  #name {
+    height: 48px;
+    padding: 0 12px;
+  }
+
+  #email {
     height: 48px;
     padding: 0 12px;
   }
