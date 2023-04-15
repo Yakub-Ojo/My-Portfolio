@@ -396,6 +396,7 @@ label {
 }
 
 .contact-desc {
+  width: 100%;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -684,7 +685,8 @@ form span {
 
   .desktop-contact {
     margin: 25px 65px 17% 65px;
-    padding: 20px 0;
+    padding: 0px 20px;
+    gap: 40px;
   }
 
   .desktop-contact p {
@@ -692,18 +694,26 @@ form span {
     text-align: left;
   }
 
+  .contact-desc {
+    width: 41%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
   .contact-form {
     display: grid;
     gap: 24px;
-    width: 60%;
+    width: 59%;
   }
 
   #msg {
     width: 100%;
   }
 
-  #name {
-    width: 100%;
+  #name, #email {
     height: 48px;
     padding: 0 12px;
   }
@@ -734,6 +744,7 @@ form span {
     background-image: url(./Icons/contact_right.svg), url(./Icons/contact_mid.svg), url(Icons/contact_left.svg);
     background-repeat: no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
+    padding: 0;
   }
 
   .modal {
