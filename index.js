@@ -25,6 +25,7 @@ closeBtn.addEventListener('click', () => {
 });
 
 const navItems = document.querySelectorAll('.nav-list a');
+console.log(navItems);
 if (window.innerWidth < 767) {
   navItems.forEach((item) => {
     item.addEventListener('click', () => {
